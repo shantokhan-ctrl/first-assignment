@@ -112,3 +112,50 @@ color: #25243250;
   margin-top: 0px;
 
 }
+
+/* Let’s Get In Touch Section */
+.lgt{
+ max-width:1140px;
+  margin:99px 133px 20px 167px;
+  background-color: #ffffff50;
+  
+}
+.lgt-main{
+  display: flex;
+  justify-content: space-between;
+}
+
+.lgt-text{
+   width:528px;
+  height: 232px;
+   font-weight: bold;
+  font-size: 97px;
+  color: #000000;
+  margin: 200px 115px 200px 0px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 497px;
+  height: 490px;
+  margin: 100px 0px 71px 115px;
+}
+.form label{
+  font-size: 18px;
+  font-weight: 500px;
+  display: block;
+  color: #000000;
+ 
+}
+.form placeholder{
+  font-size: 20px;
+  color: #00000050;
+}
+.form input,.form textarea{
+  border-radius: 10px;
+  border-color: #D6DDED;
+  width: 497px;
+  height: 70px;
+}
