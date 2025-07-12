@@ -8,4 +8,45 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+}.btn{
+  background-color: #4E47FF;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  padding:12px 36px;
 }
+.btn:hover{
+  background-color: crimson;
+  color: black;
+}
+/* Navbar and Banner Section */
+.header{
+  background-image: url('../Assets/Hero-bg.png');
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 150px;
+  align-items: center;
+}
+nav h3{
+  font-size: 34px;
+  font-weight:900;
+  color:#4E47FF;
+  margin-top: 50px;
+}
+.title{
+  text-align: center;
+  width: 905px;
+  height: 237px;
+  margin: 0 auto;
+  padding: 158px 267px 152px 267px; 
+}
+.title h1{
+  font-weight: bold;
+  font-size: 65px;
+  color:#252432;
+}
+
